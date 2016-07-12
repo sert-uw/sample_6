@@ -1,6 +1,8 @@
-<h1>Editing Article</h1>
+<div class="col-md-6 col-md-offset-1">
+  <h1>Editing Article</h1>
 
-<%= render 'form' %>
+  <%= render 'form' %>
 
-<%= link_to 'Show', @article %> |
-<%= link_to 'Back', articles_path %>
+  <%= link_to 'Show', @article, class: "btn btn-success" %> |
+  <%= link_to 'Back', articles_path, class: "btn btn-primary" %>
+</div>
